@@ -1,0 +1,9 @@
+{
+  "name": "avbrasilprotecao-prototipo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node sync.mjs",
+    "test": "node test/gate.test.mjs"
+  }
+}

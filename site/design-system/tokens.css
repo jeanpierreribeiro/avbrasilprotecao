@@ -1,0 +1,146 @@
+/* AV Brasil Proteção — gerado de tokens.json */
+:root, [data-theme="light"] {
+  --color-navy: #2a4a7a;
+  --color-navy-700: #22406c;
+  --color-navy-900: #1b2f4f;
+  --color-accent: #5681c0;
+  --color-accent-600: #3d6aa8;
+  --color-accent-100: #eef3fa;
+  --color-gold: #e3a52d;
+  --color-gold-300: #f0b94d;
+  --color-gold-600: #d18f17;
+  --color-gold-100: #fdf4e1;
+  --color-paper: #fdfdfd;
+  --id-navy-1: #044166;
+  --id-navy-2: #08608c;
+  --id-navy-3: #087daa;
+  --id-blue-1: #2177b7;
+  --id-blue-2: #278ecc;
+  --id-blue-3: #24a8eb;
+  --id-gold-1: #e59413;
+  --id-gold-2: #ffa014;
+  --id-gold-3: #ffaf45;
+  --color-grey-50: #f6f8fb;
+  --color-grey-100: #eef1f5;
+  --color-grey-200: #e1e6ed;
+  --color-grey-300: #cbd3de;
+  --color-grey-400: #9aa6b6;
+  --color-grey-500: #6b7889;
+  --color-grey-600: #4f5b6c;
+  --color-grey-700: #3a4554;
+  --color-grey-800: #263140;
+  --color-grey-900: #151c26;
+  --color-surface: #fdfdfd;
+  --color-surface-alt: #f6f8fb;
+  --color-surface-raised: #ffffff;
+  --color-surface-brand: #2a4a7a;
+  --color-ink: #151c26;
+  --color-ink-muted: #4f5b6c;
+  --color-heading: #2a4a7a;
+  --color-ink-on-brand: #ffffff;
+  --color-ink-on-brand-muted: #c9d6ea;
+  --color-link: #3d6aa8;
+  --color-border: #e1e6ed;
+  --color-border-strong: #6b7889;
+  --color-action: #2a4a7a;
+  --color-action-hover: #3d6aa8;
+  --color-on-action: #ffffff;
+  --color-cta: #e3a52d;
+  --color-cta-hover: #f0b94d;
+  --color-cta-active: #d18f17;
+  --color-on-gold: #1b2f4f;
+  --color-focus-ring: #3d6aa8;
+  --color-success: #1e7a46;
+  --color-success-bg: #e8f5ee;
+  --color-error: #c0362c;
+  --color-error-bg: #fdeceb;
+  --color-warning: #9a5b00;
+  --color-warning-bg: #fdf4e1;
+  --color-info: #2a4a7a;
+  --color-info-bg: #eef3fa;
+  --shadow-xs: 0 1px 2px rgba(27,47,79,0.06);
+  --shadow-sm: 0 2px 6px rgba(27,47,79,0.06), 0 1px 2px rgba(27,47,79,0.04);
+  --shadow-md: 0 8px 24px rgba(27,47,79,0.08), 0 2px 6px rgba(27,47,79,0.05);
+  --shadow-lg: 0 24px 48px rgba(27,47,79,0.14), 0 6px 16px rgba(27,47,79,0.08);
+  --shadow-cta: 0 6px 16px rgba(227,165,45,0.35);
+}
+[data-theme="dark"] {
+  --color-surface: #111d30;
+  --color-surface-alt: #16263f;
+  --color-surface-raised: #1b2f4f;
+  --color-surface-brand: #22406c;
+  --color-ink: #f2f5fa;
+  --color-ink-muted: #a9bdd9;
+  --color-heading: #ffffff;
+  --color-link: #8fb0de;
+  --color-border: #2b4266;
+  --color-border-strong: #7d93b5;
+  --color-action: #fdfdfd;
+  --color-action-hover: #dfe8f5;
+  --color-on-action: #2a4a7a;
+  --color-focus-ring: #f0b94d;
+  --color-success: #5ec08a;
+  --color-success-bg: #173a2c;
+  --color-error: #ff8a7f;
+  --color-error-bg: #3d1f22;
+  --color-warning: #f0c060;
+  --color-warning-bg: #3a2e14;
+  --color-info: #c9d6ea;
+  --color-info-bg: #22406c;
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.30);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.35);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.40);
+  --shadow-lg: 0 24px 48px rgba(0,0,0,0.50);
+  --shadow-cta: 0 6px 16px rgba(227,165,45,0.25);
+}
+:root {
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+  --container-max: 1200px;
+  --grid-cols-desktop: 12;
+  --grid-cols-tablet: 8;
+  --grid-cols-mobile: 4;
+  --gutter-desktop: 24px;
+  --gutter-tablet: 24px;
+  --gutter-mobile: 16px;
+  --margin-desktop: 32px;
+  --margin-tablet: 32px;
+  --margin-mobile: 16px;
+  --bp-tablet: 640px;
+  --bp-desktop: 1024px;
+  --bp-wide: 1280px;
+  --z-header: 100;
+  --z-floating: 200;
+  --z-modal: 300;
+  --font-display: "Magistral", "Outfit", system-ui, sans-serif;
+  --font-sans: "Magistral", "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.display { font-family: var(--font-display); font-size: 64px; line-height: 68px; font-weight: 800; letter-spacing: -0.02em; }
+.h1 { font-family: var(--font-display); font-size: 48px; line-height: 56px; font-weight: 700; letter-spacing: -0.015em; }
+.h2 { font-family: var(--font-display); font-size: 36px; line-height: 44px; font-weight: 700; letter-spacing: -0.01em; }
+.h3 { font-family: var(--font-display); font-size: 28px; line-height: 36px; font-weight: 600; letter-spacing: -0.005em; }
+.h4 { font-family: var(--font-display); font-size: 22px; line-height: 30px; font-weight: 600; letter-spacing: 0; }
+.body-lg { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; letter-spacing: 0; }
+.body-md { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; letter-spacing: 0; }
+.body-sm { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; letter-spacing: 0; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.02em; }
+.overline { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.14em; }
+.button { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 600; letter-spacing: 0.01em; }
+.stat { font-family: var(--font-display); font-size: 48px; line-height: 52px; font-weight: 800; letter-spacing: -0.02em; }
